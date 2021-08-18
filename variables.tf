@@ -1,27 +1,27 @@
  variable "ec2_name" {
    description = "ec2 instance tag Name"
-   default = "demo-edit-core-terraform-ec2"
+   default = "QA > Terraform_Provisioning (core)"
  }
 
  variable "subnet_id" {
    description = "subnet identity"
-   default = "subnet-0f0d20e44d0cf905a"
+   default = "subnet-b7ef58df"
  }
 
  variable "security_groups" {
    description = "security group ids"
    type = list(string)
-   default = ["sg-03c12140254b38dc3"]
+   default = ["sg-03252da9fdcf08949"]
  }
 
  variable "key_pair" {
    description = "pem key pair name"
-   default = "devos-seoul-keypair"
+   default = "soyoung.ahn-2"
  }
 
  variable "instance_type" {
    description = "ec2 instance type"
-   default = "t2.micro"
+   default = "t2.nano"
  }
 
  variable "assign_ip" {

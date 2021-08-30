@@ -1,6 +1,6 @@
  variable "ec2_name" {
    description = "ec2 instance tag Name"
-   default = "QA_ > Terraform_Provisioning (core)"
+   default = "QA_edit > Terraform_Provisioning (core)"
  }
 
  variable "subnet_id" {

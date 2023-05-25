@@ -21,7 +21,7 @@
 
  variable "instance_type" {
    description = "ec2 instance type"
-   default = "t2.nano22222"
+   default = "t2.nano"
  }
 
  variable "assign_ip" {

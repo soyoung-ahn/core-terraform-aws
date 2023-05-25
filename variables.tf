@@ -3,10 +3,6 @@
    default = "QA > Terraform_Provisioning (core)"
  }
 
- variable "subnet_id" {
-   description = "subnet identity"
-   default = "subnet-b7ef58df"
- }
 
  variable "security_groups" {
    description = "security group ids"

@@ -16,7 +16,7 @@
 
  variable "key_pair" {
    description = "pem key pair name"
-   default = "soyoung.ahn"
+   default = "soyoung.ahn-2"
  }
 
  variable "instance_type" {
